@@ -21,7 +21,7 @@ example-img是示例图片存放文件夹，可直接删除
 
 |                        小程序                         |                                                       |
 | :----------------------------------------------------: | :---------------------------------------------------: |
-|      ![image text](./example-img/1.png)       |    ![image text](./example-img/2.jpg)    |
+|      ![image text](./example-img/1.png)       |    ![image text](./example-img/2.png)    |
 |      ![image text](./example-img/3.png)       |    ![image text](./example-img/4.png)    |
 |      ![image text](./example-img/5.png)       |    ![image text](./example-img/6.png)    |
 |      ![image text](./example-img/7.png)       |
