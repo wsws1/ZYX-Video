@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "pages/account/account",
+    "pages/classify/classify",
+    "pages/study/study",
+    "pages/account/preson_info/preson_info",
+    "pages/index/video/video"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#515151",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/taber_pictrue/index-copy.png",
+        "selectedIconPath": "static/taber_pictrue_selected/index-copy.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/taber_pictrue/leimupinleifenleileibie.png",
+        "selectedIconPath": "static/taber_pictrue_selected/leimupinleifenleileibie.png"
+      },
+      {
+        "pagePath": "pages/study/study",
+        "text": "我的学习",
+        "iconPath": "static/taber_pictrue/wodexuexi.png",
+        "selectedIconPath": "static/taber_pictrue_selected/wodexuexi.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "账号",
+        "iconPath": "./static/taber_pictrue/zhanghu.png",
+        "selectedIconPath": "static/taber_pictrue_selected/zhanghu.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap45.json"
+}

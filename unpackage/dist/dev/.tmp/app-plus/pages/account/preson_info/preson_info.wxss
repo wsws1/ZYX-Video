@@ -1,0 +1,103 @@
+
+.container{
+		height: 100vh;
+		background-color: #F8F8F8;
+		padding: 0rpx 20rpx;
+}
+.title{
+		position: relative;
+		height: 40%;
+}
+.backgroud{
+		height: 100%;
+		text-align: center;
+}
+.backgroud image{
+		height: 100%;
+		width: 100%;
+		-webkit-filter: blur(1px);
+		        filter: blur(1px);
+}
+.head_portrait{
+		text-align: center;
+		width: 180rpx;
+		height: 180rpx;
+		border-radius: 50%;
+		position: absolute;
+		color: white;
+		bottom: -15%;
+		/* 计算属性不支持rpx，1px=2rpx */
+		left: calc(50% - 45px);
+}
+.head_portrait image{
+		width: 180rpx;
+		height: 180rpx;
+		border-radius: 50%;
+		box-shadow: 2rpx 5rpx 10rpx 0rpx #1b1b1b;
+}
+.content{
+		height: 30%;
+		background-color: #49d883;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.left,
+	.right{
+		width: 290rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.left view,
+	.right view{
+		width: 49%;
+		hiegh:49%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		color: #ffffff;
+}
+.info_item:nth-of-type(1),
+	.info_item:nth-of-type(2){
+		border-bottom: 1rpx solid #CCCCCC;
+}
+.info_item:nth-of-type(2n){
+		border-left: 1rpx solid #CCCCCC;
+}
+.info_item .icon-nicheng{
+		color: #8b1a06;
+		font-size: 57rpx;
+}
+.info_item .icon-icon-1{
+		color: #ca0000;
+		font-size: 57rpx;
+}
+.info_item .icon-nianling{
+		color: #068b2c;
+		font-size: 57rpx;
+}
+.info_item .icon-nianling{
+		color: #0f3f8b;
+		font-size: 57rpx;
+}
+.info_item .icon-dianhua{
+		color: #8b8314;
+		font-size: 57rpx;
+}
+

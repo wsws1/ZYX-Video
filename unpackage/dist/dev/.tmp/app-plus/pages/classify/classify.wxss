@@ -1,0 +1,108 @@
+
+.container{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 100vh;
+}
+.left{
+	width: 220rpx;
+	background-color: #e4e3e3;
+	color: #616161;
+	padding:40rpx 15rpx 40rpx 20rpx;
+	border-radius: 0rpx 20rpx 20rpx 0rpx;
+	margin-right: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 30rpx;
+	font-weight: 700;
+	-webkit-box-align: stretch;
+	-webkit-align-items: stretch;
+	        align-items: stretch;
+}
+.left view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 90rpx;
+}
+.active{
+	color: #dd1705;
+	position: relative;
+}
+.active::before{
+	content: "";
+	position: absolute;
+	width: 8rpx;
+	height: 20rpx;
+	background-color: #dd1705;
+	left: -12rpx;
+	top: 39rpx;
+	border-radius: 25rpx;
+}
+.right{
+	width: 500rpx;
+	padding-bottom: 20rpx;
+}
+.right .title{
+	width: 500rpx;
+	height: 170rpx;
+	line-height: 66rpx;
+	background-image: -webkit-linear-gradient(45deg,rgb(223, 87, 8),rgb(245, 153, 67));
+	background-image: linear-gradient(45deg,rgb(223, 87, 8),rgb(245, 153, 67));
+	border-radius: 15rpx;
+	box-sizing: border-box;
+	padding-top: 20rpx;
+	box-shadow: 0rpx 5rpx 5rpx 0rpx #CCCCCC;
+}
+.title view{
+	text-align: center;
+	color: white;
+	font-size: 29rpx;
+}
+.title view:nth-of-type(1){
+	font-size: 40rpx;
+	font-weight: 600;
+}
+.content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-align-content: flex-start;
+	        align-content: flex-start;
+}
+.detail{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	text-align: center;
+	width: 150rpx;
+	height: 150rpx;
+	margin:30rpx 10rpx 0rpx 0rpx ;
+	font-size: 27rpx;
+	color: #646464;
+}
+.detail image{
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 50%;
+	margin: auto;
+}
+

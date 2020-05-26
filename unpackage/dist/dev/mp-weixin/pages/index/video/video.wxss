@@ -1,0 +1,66 @@
+
+.container{
+	width: 100vw;
+	height: 100vh;
+}
+.video{
+	width: 100vw;
+	height: 30vh;
+}
+video{
+	width: 100vw;
+	height: 30vh;
+}
+.tab{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding:25rpx 30rpx;
+	color: #858487;
+	-webkit-box-shadow: 0rpx 3rpx 8rpx 5rpx #f9f9f9;
+	        box-shadow: 0rpx 3rpx 8rpx 5rpx #f9f9f9;
+	font-size: 30rpx;
+}
+.title{
+	padding: 30rpx 0rpx;
+	margin: 0rpx 30rpx;
+	background-color: white;
+	margin-top: 10rpx;
+	border-bottom: 1rpx solid #f1f1f1;
+}
+.title view:nth-of-type(1){
+	font-size: 40rpx;
+	font-weight: bold;
+	margin-bottom: 20rpx;
+}
+.title view:nth-of-type(2){
+	font-size: 28rpx;
+	color: #808080;
+}
+.title view:nth-of-type(2) text{
+	margin:0rpx 10rpx 0rpx 20rpx;
+	display: inline-block;
+	margin-top: 10rpx;
+}
+.lessons{
+	padding: 30rpx;
+}
+.lessons_title{
+	font-size: 33rpx;
+	font-weight: 700;
+	padding: 20rpx 0rpx;
+}
+.lessons_content{
+	font-size: 30rpx;
+	color: #444444;
+}
+.lessons_content view{
+	padding: 10rpx 0rpx;
+}
+.icon-daima{
+	margin: 0rpx 20rpx;
+}
+

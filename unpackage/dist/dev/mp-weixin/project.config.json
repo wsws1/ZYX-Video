@@ -1,0 +1,70 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wx19e7d28ebe5647b7",
+	"projectname": "app",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"name": "index",
+					"query": "interval=4000&autoplay=false",
+					"id": 0,
+					"pathName": "pages/index/index"
+				},
+				{
+					"name": "register",
+					"id": 1,
+					"pathName": "pages/register/register"
+				},
+				{
+					"name": "classify",
+					"id": 2,
+					"pathName": "pages/classify/classify"
+				},
+				{
+					"name": "study",
+					"id": 3,
+					"pathName": "pages/study/study"
+				},
+				{
+					"name": "account",
+					"id": 4,
+					"pathName": "pages/account/account"
+				},
+				{
+					"name": "preson_info",
+					"id": 5,
+					"pathName": "pages/account/preson_info/preson_info"
+				},
+				{
+					"name": "video",
+					"id": 6,
+					"pathName": "pages/index/video/video"
+				}
+			]
+		}
+	}
+}
